@@ -20,3 +20,5 @@ contact = {
     'Contact': request.json.get('Contact', ""),
     'done': False    
 }
+if(__name__ == "__main__") :
+    app.run(debug=True)
